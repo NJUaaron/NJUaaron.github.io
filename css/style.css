@@ -255,3 +255,13 @@ a:focus {
     overflow: hidden;
     margin-left: 120px;
 }
+
+.mobile-nav-menu li.nav-menu-toggle {
+    display: none;
+    margin-right: 30px;
+}
+
+.header .header-fixed.is-sticky {
+    padding: 0px 0px;
+    background-color: #fff;
+}
