@@ -1,7 +1,156 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>AaronBlog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--==== Google Fonts ====-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500%7CSpectral:400,400i,500,600,700" rel="stylesheet">
+
+    <!-- CSS Files -->
+
+    <!--==== Bootstrap css file ====-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--==== Animate CSS ====-->
+    <link rel="stylesheet" href="plugin/animate.min.css">
+
+    <!--==== Style css file ====-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with nju GitHub Pages.</p>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preload-img">
+            <div class="spinnerBounce">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-fixed">
+            <div class="container-fluid pl-120 pr-120 position-relative">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <!-- Logo -->
+                        <div class="logo" style="width: 130px;">
+                            <a href="#"><img src="image/logo.png" alt="" class="img-fluid"></a>
+                        </div>
+                        <!-- End of Logo -->
+                    </div>
+
+                    <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
+                        <!-- Nav Menu -->
+                        <div class="nav-menu-cover">
+                            <ul class="nav nav-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li class="menu-item-has-children"><a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children"><a href="#">Blog List</a>
+                                            <ul class="sub-menu" style="left: auto; right: 100%;">
+                                                <li><a href="blog-list-sidebar.html">List Sidebar</a></li>
+                                                <li><a href="blog-list-full-width.html">List Full Width</a></li>
+                                                <li><a href="blog-grid-sidebar.html">Grid Sidebar</a></li>
+                                                <li><a href="blog-grid-2-col.html">Grid v2</a></li>
+                                                <li><a href="blog-grid-3-col.html">Grid v3</a></li>
+                                                <li><a href="blog-overlay.html">Blog Overlay</a></li>
+                                                <li><a href="blog-card-v1.html">Blog Card v1</a></li>
+                                                <li><a href="blog-card-v2.html">Blog Card v2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="#">Blog Details</a>
+                                            <ul class="sub-menu" style="left: auto; right: 100%;">
+                                                <li><a href="blog-details.html">Default Style</a></li>
+                                                <li><a href="blog-details-full-width.html">Full Width</a></li>
+                                                <li><a href="blog-details-video.html">Video Post</a></li>
+                                                <li><a href="blog-details-slide.html">Slide Post</a></li>
+                                                <li><a href="blog-details-audio.html">Audio Post</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Research</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="categories.html">Categories</a></li>
+                                        <li><a href="search-result.html">Search Results</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- End of Nav Menu -->
+
+                        <!-- Mobile Menu -->
+                        <div class="mobile-menu-cover">
+                            <ul class="nav mobile-nav-menu">
+                                <li class="search-toggle-open">
+                                    <img src="assets/images/search-icon.svg" alt="" class="img-fluid svg">
+                                </li>
+                                <li class="search-toggle-close hide">
+                                    <img src="assets/images/close.svg" alt="" class="img-fluid">
+                                </li>
+                                <li class="nav-menu-toggle">
+                                    <img src="assets/images/menu-toggler.svg" alt="" class="img-fluid svg">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End of Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Banner -->
+    <div class="banner-slider-cover d-flex align-items-center">
+        <div class="container">
+            <div class="banner-slider owl-carousel">
+                <!-- Banner Slide -->
+                <div class="banner-slide">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <!-- Banner Text -->
+                            <div class="banner-slide-text">
+                                <p class="category"><a href="#">Xinyue Liu（刘心悦）</a></p>
+                                <h1>君子之德风，小人之德草，草上之风必偃</h1>
+                                <p class="desc">I'm Xinyue Liu. I have just graduated from Nanjing University at department of computer science. I'm looking for a Ph.D. position. My interests focus on Software Engineering and Computer Vision. You can learn me more in this blog.</p>
+                                <span>You can contact me at </span>
+                                <p style="color: red;">aaronxyliu@qq.com</p>
+                                <a href="doc/CV.pdf" class="btn btn-primary">Resume</a>
+                                <a href="https://github.com/NJUaaron" class="btn btn-primary">My Github</a>
+                                <a href="https://scholar.google.com/citations?hl=en&user=k1eGsbUAAAAJ" class="btn btn-primary">Google Scholar Page</a>
+                            </div>
+                            <!-- End of Banner Text -->
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2">
+                            <!-- Banner Image -->
+                            <div class="banner-slide-image">
+                                <img src="image/profile.jpg" alt="" class="img-fluid" style="border-radius: 50%;">
+                            </div>
+                            <!-- End of Banner Image -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Banner Slide -->
+            </div>
+        </div>
+        <!-- End of Banner Dots Slider -->
+    </div>
+    <!-- End of Banner -->
+
+    <!-- JS Files -->
+
+    <!-- ==== JQuery 1.12.1 js file ==== -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+
+    <!-- ==== Script js file ==== -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
